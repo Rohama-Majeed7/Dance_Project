@@ -1,0 +1,105 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+	/* background: linear-gradient(-45deg , #03a4df, #030179); */
+#nav-links a{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+}
+#nav-links{
+    padding-left: 15rem;
+}
+#search-box{
+    border: none;
+    background: none;
+}
+#search-icon{
+    border: none;
+    color: white;
+}
+#search-btn{
+    background: none;
+    border: none;
+    color: white;
+    padding-left: 2rem;
+}
+.nav-icon{
+    color: white;
+    padding-left: 2rem;
+    text-align: center;
+}
+.icon-text{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    display: block;
+}
+#info{
+    padding-left: 2rem;
+    padding-top: 4rem;
+    color: white;
+}
+#info h1{
+    margin-top: 5rem;
+}
+#main-info{
+    background: url('./images/sec-1-bg.png');
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.reg-btn{
+    padding: 0.3rem 1.3rem;
+    background: orangered;
+    border: none;
+    color: white;
+}
+#toggle{
+    background: orangered;
+}
+.card-info{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    padding: 0.5rem;
+}
+.icon{
+    font-size: 3.5rem;
+}
+.price{
+    background-color: rgb(31, 30, 30);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.2rem;
+}
+img{
+    object-fit: cover;
+}
+
+
+.red-btn{
+padding: 0.3rem 1.3rem;
+background:rgb(43, 42, 42);
+border: none;
+color: white;
+}
+.footer{
+    background:rgb(27, 27, 27);
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+    padding-bottom: 1rem;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+.links a:hover{
+    color: orangered;
+}
